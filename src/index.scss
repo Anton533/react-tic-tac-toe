@@ -33,11 +33,35 @@ body {
   text-align: center;
   min-width: 320px;
   min-height: 100vh;
+  margin: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-size: 22px;
+}
+h2 {
+  font-size: 20px;
+}
+h3 {
+  font-size: 18px;
+}
+h4 {
+  font-size: 16px;
+}
+h5 {
+  font-size: 14px;
+}
+h6 {
+  font-size: 12px;
 }
 
 a {
@@ -51,6 +75,14 @@ a {
 
 img {
   display: block;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  padding-inline-start: 20px;
 }
 
 .page-wrapper {
